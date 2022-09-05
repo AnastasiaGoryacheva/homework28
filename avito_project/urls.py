@@ -23,7 +23,7 @@ from avito_project import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', code),
-    path('', include("ads.urls")),
+    path('', include("abs.urls")),
     path('user/', include("user.urls")),
 ]
 
